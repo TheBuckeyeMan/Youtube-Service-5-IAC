@@ -20,6 +20,7 @@ resource "aws_lambda_function" "api_lambda" {
       LOGGING_BUCKET_KEY = var.LOGGING_BUCKET_KEY
       LANDING_BUCKET = var.LANDING_BUCKET
       YOUTUBE_BUCKET_KEY = var.YOUTUBE_BUCKET_KEY
+      TITLE_BUCKET_KEY = var.TITLE_BUCKET_KEY
     }
   }
 
