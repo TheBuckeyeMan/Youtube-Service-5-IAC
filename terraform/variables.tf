@@ -67,3 +67,8 @@ variable "REDIRECT_URI" {
   description = "REDIRECT_URI"
   type = string
 }
+
+variable "YOUTUBE_REFRESH_TOKEN" {
+  description = "YOUTUBE_REFRESH_TOKEN"
+  type = string
+}
