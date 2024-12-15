@@ -33,6 +33,10 @@ variable "YOUTUBE_BUCKET_KEY" {
   type = string
 }
 
+variable "TITLE_BUCKET_KEY" {
+  description = "TITLE_BUCKET_KEY"
+  type = string
+}
 
 
 
