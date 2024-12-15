@@ -21,6 +21,12 @@ resource "aws_lambda_function" "api_lambda" {
       LANDING_BUCKET = var.LANDING_BUCKET
       YOUTUBE_BUCKET_KEY = var.YOUTUBE_BUCKET_KEY
       TITLE_BUCKET_KEY = var.TITLE_BUCKET_KEY
+      CLIENT_ID = var.CLIENT_ID
+      CLIENT_SECRET = var.CLIENT_SECRET
+      AUTH_URI = var.AUTH_URI
+      TOKEN_URI = var.TOKEN_URI
+      AUTH_PROVIDER_CERT_URL = var.AUTH_PROVIDER_CERT_URL
+      REDIRECT_URI = var.REDIRECT_URI
     }
   }
 

@@ -38,5 +38,32 @@ variable "TITLE_BUCKET_KEY" {
   type = string
 }
 
+variable "CLIENT_ID" {
+  description = "CLIENT_ID"
+  type = string
+}
 
+variable "CLIENT_SECRET" {
+  description = "CLIENT_SECRET"
+  type = string
+}
 
+variable "AUTH_URI" {
+  description = "AUTH_URI"
+  type = string
+}
+
+variable "TOKEN_URI" {
+  description = "TOKEN_URI"
+  type = string
+}
+
+variable "AUTH_PROVIDER_CERT_URL" {
+  description = "AUTH_PROVIDER_CERT_URL"
+  type = string
+}
+
+variable "REDIRECT_URI" {
+  description = "REDIRECT_URI"
+  type = string
+}
