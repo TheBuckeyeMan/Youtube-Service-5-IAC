@@ -72,3 +72,8 @@ variable "YOUTUBE_REFRESH_TOKEN" {
   description = "YOUTUBE_REFRESH_TOKEN"
   type = string
 }
+
+variable "TAGS_BUCKET_KEY" {
+  description = "TAGS_BUCKET_KEY"
+  type = string
+}

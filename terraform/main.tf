@@ -28,6 +28,7 @@ resource "aws_lambda_function" "api_lambda" {
       AUTH_PROVIDER_CERT_URL = var.AUTH_PROVIDER_CERT_URL
       REDIRECT_URI = var.REDIRECT_URI
       YOUTUBE_REFRESH_TOKEN = var.YOUTUBE_REFRESH_TOKEN
+      TAGS_BUCKET_KEY = var.TAGS_BUCKET_KEY
     }
   }
 
